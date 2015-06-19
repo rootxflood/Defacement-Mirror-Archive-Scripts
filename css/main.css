@@ -1,0 +1,30 @@
+.jumbotron{
+    padding: 15px 40px 15px 40px;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+.jumbotron h1 {
+    margin-top: 10px;
+    font-size: 35px;
+}
+
+.logo{
+    margin: 10px 20px 10px 10px;
+}
+
+.slidorion{
+    width: 860px;
+}
+.accordion .content{
+    height: 235px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .slidorion{
+        width: 720px;
+        margin-left:-370px;
+    }
+}
+
+#info-area blockquote{
+    margin: 0px;
+}

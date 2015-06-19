@@ -1,0 +1,55 @@
+# DefacerID
+ErrorDocument 403 /403.php
+ErrorDocument 404 /404.php
+ErrorDocument 405 /405.php
+ErrorDocument 500 /500.php
+ErrorDocument 503 /503.php
+
+# DefacerID
+
+RewriteEngine On
+RewriteCond %{SERVER_PORT} !443
+RewriteRule (.*) https://mirror-db.com/ [R]
+
+RewriteRule ^attacker_(.*)/?-([0-9-\s]+)\.html$ attacker.php?haxor=$1&s=$2 
+RewriteRule ^teamar_(.*)/?-([0-9-\s]+)\.html$ teamar.php?haxor=$1&s=$2 
+
+RewriteRule ^archive-([A-Za-z0-9-]+)\.html$ attack.php?zone=$1 [L]
+RewriteRule ^special-([A-Za-z0-9-]+)\.html$ spe.php?s=$1 [L]
+RewriteRule ^onholds-([A-Za-z0-9-]+)\.html$ holds.php?s=$1 [L]
+RewriteRule ^rank-([A-Za-z0-9-]+)\.html$ arank.php?s=$1 [L]
+RewriteRule ^team-rank-([A-Za-z0-9-]+)\.html$ trank.php?s=$1 [L]
+RewriteRule ^mirror_([A-Za-z0-9-]+)\.page$ mirror.php?id=$1 [L]
+RewriteRule ^mirror_([A-Za-z0-9-]+)\.html$ mirror.php?id=$1 [L]
+RewriteRule ^full_([A-Za-z0-9-]+)\.view$ full.php?id=$1 [L]
+RewriteRule ^full_([A-Za-z0-9-]+)\.html$ full.php?id=$1 [L]
+RewriteRule ^hack\.boardl$ index.php [L]
+
+RewriteRule ^archive\.html$ attack.php [L]
+RewriteRule ^special\.html$ spe.php [L]
+RewriteRule ^onholds\.html$ holds.php [L]
+RewriteRule ^rank\.html$ arank.php [L]
+RewriteRule ^team-rank\.html$ trank.php [L]
+RewriteRule ^single\.notify$ notify.php [L]
+RewriteRule ^notify_act\.html$ notify_act.php [L]
+RewriteRule ^mass\.notify$ mass.php [L]
+RewriteRule ^mass_act\.html$ mass_act.php [L]
+RewriteRule ^search\.html$ search.php [L]
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:utaGyb
+ErrorDocument 400 /400.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE utaGyb:ERRORPAGEID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:JuRasa
+ErrorDocument 404 /404.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE JuRasa:ERRORPAGEID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:yrabeB
+ErrorDocument 403 /403.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE yrabeB:ERRORPAGEID
+
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW ERRORPAGEID:Weseqe
+ErrorDocument 500 /500.html
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE Weseqe:ERRORPAGEID
