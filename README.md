@@ -19,3 +19,6 @@ Make account on http://ipinfodb.com and talke api key and set it in all php scri
 Do editing according to your site and go go go...
 
 Please provide your valuable feedback ^_^ 
+
+Script by Root_X_FlooD
+Contact : admin@mirror-db.com , rootxflood@gmail.com
